@@ -1,0 +1,36 @@
+h1,h2,h3,h4,h5,h6,p,ol,li,ul{
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+ul,ol,li{
+    list-style-type: none;
+}
+/* top_bar css start */
+#top_bar{
+    background-color:#0f2f44 ;
+    color: #fefefe;
+}
+/* top_bar css end */
+/* nav_bar css start */
+nav div ul li a{
+    color: #222222;
+    transition: .6s;
+}
+nav div ul li{
+    padding:40px 19px;
+}
+nav div ul li a:hover{
+    color: #ffd462;
+    background-color:#fff9e6 ;
+}
+nav div ul li button{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    color: #999999;
+    border: 1px solid #dedede;
+    background:none;
+}
+/* nav_bar css end */
